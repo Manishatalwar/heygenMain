@@ -1,0 +1,177 @@
+.css-121ogc0 {
+    margin: 20px; /* Adjust margin as needed */
+  }
+  
+  .css-79elbk {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+  .css-1xfgw79 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .css-iplo57 {
+    display: flex;
+    margin-top: 34px;
+    gap: 10px; /* Adjust the gap between boxes */
+  }
+  
+  .css-qw1l1n {
+    flex: 1;
+    border: 1px solid #ccc; /* Add a border for better visualization */
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .css-qw1l1n img.css-1k98rbz {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .css-1uubad5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .subTitle {
+    font-size: 14px;
+  }
+  
+  .css-9903o2 {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Add styles for active state */
+  .css-qw1l1n.active {
+    border-color: #4caf50; /* Change color for active state */
+  }
+  
+  /* Add styles for other boxes as needed */
+  .css-4tvxr0 {
+    flex: 1; /* Adjust if needed */
+  }
+  
+  /* Add styles for other elements as needed */
+  
+  
+  /* WhiteCardWithBox.css */
+  .square-box{
+    margin-top: 20px !important;
+
+    }
+    
+    .square-box:hover{
+          width: 300px;
+        border: 1px solid #ccc;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 7px;
+        padding-bottom: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  .card {
+    position: relative;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+  }
+  .square-box {
+    position: relative;
+    width: 290px; /* Set the width as needed */
+    height: 147px; /* Set the height as needed */
+    border: 1px dashed #8a2be2;
+    margin-top: 15px  !important;
+    overflow: hidden; /* Ensure the overflow is hidden */
+  }
+  
+  .background {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://static.heygen.ai/movio_static/images/emptySeatBG.png'); /* Set your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Ensure the background image does not repeat */
+  }
+  .content-style {
+    display: inline-flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 12px;
+    height: 32px;
+    border-radius: 6px;
+    border-width: 0px;
+    user-select: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    transition: opacity 0.2s ease-out 0s, border-color 0.2s ease-out 0s, color 0.2s ease-out 0s, background 0.2s ease-out 0s, fill 0.2s ease-out 0s, box-shadow 0.2s ease-out 0s;
+    background: rgb(117, 89, 255);
+    color: rgb(255, 255, 255);
+}
+  
+
+.center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn-purple {
+    display: inline-flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 12px;
+    height: 32px;
+    border-radius: 6px;
+    border-width: 0px;
+    user-select: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    transition: opacity 0.2s ease-out 0s, border-color 0.2s ease-out 0s, color 0.2s ease-out 0s, background 0.2s ease-out 0s, fill 0.2s ease-out 0s, box-shadow 0.2s ease-out 0s;
+    background: rgb(117, 89, 255);
+    color: rgb(255, 255, 255);
+}

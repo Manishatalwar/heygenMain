@@ -1,0 +1,129 @@
+/* mainHeader.css */
+.combined-btn {
+  gap: 4px;
+  cursor:  pointer;
+  border: 1px solid rgb(248, 234, 198);
+  background: linear-gradient(135deg, rgba(255, 144, 0, 0.08) 0%, rgba(255, 214, 0, 0.08) 100%);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(35, 40, 51);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 8px !important;
+  margin-right: 20px;
+  padding: 8px; /* You can adjust the padding as needed */
+}
+.custom-btn {
+  background: rgb(117, 89, 255);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 13.5px;
+  width: 130px;
+  text-align: left;
+}
+
+.custom-btn .btnContent {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  font-weight: 600;
+  gap: 8px;
+  color: #fff;
+}
+.Notification{
+  margin-left: 10px;
+}
+.rounded-circle {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 47px; /* Adjust the width and height as needed */
+  height: 47px;
+  background-color: rgb(151, 145, 180);
+  border:1px solid grey;
+  color: #fff; /* Set the text color to white or any contrasting color */
+  border-radius: 50%;
+  font-size: 20px; /* Adjust the font size as needed */
+  font-weight: 400;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: Add a box shadow for depth */
+}
+.rounded-circle:hover {
+  border: 2px solid  rgb(128, 109, 236); /* Adjust the border width and color as needed */
+}
+
+.combined-btn .icon {
+  margin-right: 4px;
+    height: 22px;
+    width: 16px;
+    padding-left: 12px;
+    
+}
+.your-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-container img {
+  max-width: 10%;
+  height: auto;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.text {
+  margin-left: 5px;
+}
+
+.create-video-btn,
+.notification-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  background-color: #ccc; /* Add your background color or image */
+}
+
+.avatar-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff; /* Adjust text color as needed */
+}

@@ -1,0 +1,126 @@
+/* HomePage.css */
+
+.home-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section {
+  margin-left: -107px;
+  margin-right: 16px;
+  display: flex;
+  /* flex-direction: row; */
+}
+.box {
+  width: 244px;
+  flex: 1 1;
+  margin: 10px;
+  padding: 13px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 10px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 0.6px solid rgb(206, 200, 200);
+}
+.separator {
+  width: 0.6px;
+  padding-top: 0px;
+  background-color: #ccc;
+  margin-right: 131px;
+  height: 134px;
+  margin-top: 12px;
+}
+.icon {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  
+}
+
+
+.subTitle {
+  color: #777; /* Grey color for the other content */
+}
+/* HomePage.css */
+
+.home-page {
+  margin-left:137px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.active{
+  border:2px solid rgb(117, 89, 255);
+}
+.arrow{
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-left: 108px;
+    margin-top: 24px;
+}
+
+
+
+/* Text styles */
+.icon-content
+ {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  margin-top: -2px;
+}
+
+.subTitle {
+  font-weight: 400;
+  font-size: 13px !important;
+  line-height: 16px;
+  color: rgb(78, 86, 102);
+  margin-top: -10px;
+  margin-right:35.2px
+}
+.box:hover{
+  border:0.6px solid rgb(117, 89, 255);
+}
+/* ... other styles ... */
+
+.your-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* Add a horizontal grey light line */
+}
+
+.content {
+  display: flex;
+  /* flex: 1 1; */
+  flex-direction: column;
+  /* flex: 1 1; */
+  padding: 3px;
+  align-items: left !important;
+  text-align: left !important;
+}
+/* ... other styles ... */
+
+.pricing-btn,
+.create-video-btn {
+  background-color: lightgoldenrodyellow; /* Light golden background */
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  color: white; /* White text color */
+}
+
+

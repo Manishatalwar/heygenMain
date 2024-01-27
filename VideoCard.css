@@ -1,0 +1,79 @@
+.card {
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .video-container {
+    position: relative;
+    width: 283px;
+    padding: 9px;
+    margin: -1px;
+    border-radius: 8px;
+    margin-top: 7px;
+    height: 143px;
+    display: inline-block;
+    margin-bottom: 10px;
+  
+}
+  
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .play-pause-buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    gap: 8px;
+  }
+  .style-svg{
+    margin-top: -340px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  .video-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  .play-button{
+    color: rgb(114, 124, 143);
+    opacity: 1;
+    position: relative;
+    font-size: 12px;
+    line-height: 1.333;
+    font-weight: 500;
+    font-family: Mulish;
+    z-index: 1;
+    display: flex;
+    vertical-align: middle;
+    border:1px solid rgb(217, 222, 231);
+    background-color:rgb(217, 222, 231);
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  .finetune-button {
+    color: rgb(255, 170, 0);
+    border-radius: 5px;
+    border:1px solid  rgb(233, 222, 199);
+    opacity: 1;
+    position: relative;
+    font-size: 12px;
+    line-height: 1.333;
+    font-weight: 500;
+    font-family: Mulish;
+    z-index: 1;
+    display: flex;
+    vertical-align: middle;
+    background-color:  rgb(233, 222, 199);
+  
+  }
+  
+  .play-button:hover,
+  .finetune-button:hover {
+    background-color: #ccab00; /* Darker shade for hover effect */
+  }
+  

@@ -1,0 +1,137 @@
+/* Add your styling here */
+.sidebar {
+  width: 200px;
+  background-color: #fff;
+  padding-right: 50px;
+}
+
+/* ... existing styles ... */
+
+.menu-item, .additional-menu-item {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  width: 180px !important;
+  border-radius:10px;
+}
+.profile:hover {
+  width: 260px;
+  background-color:  #9d9b9b;
+  color: #333;
+}
+
+.profile.active {
+  width: 200px;
+  background-color: #ddd;
+  color: #333; /* Set the desired text color for the active state */
+}
+
+/* Add the following styles for the grey background */
+.profile.grey-bg {
+  width: 200px;
+  background-color: #ccc;
+}
+.style-free{
+ 
+    margin-top: 50px;
+  margin-left: -58px;
+   
+}
+.stylep{
+  background: linear-gradient(135deg, rgba(0, 163, 255, 0.1) 0%, rgba(0, 255, 194, 0.1) 100%);
+  padding: 0px 7px;
+  height: 10px;
+  border-radius: 10px;
+ 
+}
+
+.menu-item:hover, .additional-menu-item:hover {
+  background-color: rgba(117, 89, 255, 0.08);
+  color: rgb(117, 89, 255);
+  width: 180px !important;
+}
+
+/* Add margin to the left of menu items for spacing */
+.menu-item {
+  margin-left: 20px;
+}
+
+.active {
+  background-color: rgba(117, 89, 255, 0.08) !important;
+}
+
+/* ... existing styles ... */
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.svg{
+  padding-left: 20px;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  margin-top: 5px;
+}
+
+.menu, .additional-menu {
+  margin-bottom: 20px;
+}
+
+.menu-item, .additional-menu-item {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* Add margin to the left of menu items for spacing */
+.menu-item {
+  margin-left: 20px;
+}
+
+.active {
+  background-color: #ddd;
+}
+
+.menu-icon, .video-icon {
+  margin-right: 5px;
+}
+
+.live-soon {
+  display: flex;
+  align-items: center;
+}
+
+.live-icon {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.menu-item {
+  margin-left: 20px;
+}
